@@ -167,11 +167,11 @@ public class Maze {
     }
 
     public static void main(String[] args) {
-        Scanner obj = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows: ");
-        int rows = obj.nextInt();
+        int rows = sc.nextInt();
         System.out.println("Enter the number of columns: ");
-        int columns = obj.nextInt();
+        int columns = sc.nextInt();
         Maze maze = new Maze(rows, columns);
         System.out.println("Solved Maze: ");
         maze.solveMaze();
