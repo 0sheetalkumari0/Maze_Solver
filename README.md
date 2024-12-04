@@ -1,13 +1,27 @@
-# Maze Solver
-## Objective:
-Work with the Disjoint Set data structure.
+# Maze Generater and Solver in JAVA
 
-## Overview:
-The Disjoint Set data structure will be used in the creation of a maze.  The algorithm to do this is discussed in the textbook in chapter 8.  
+# Introduction 
+This is a Java program that generates and solves mazes using recursive backtracking algorithm. The program creates a maze of a specified size and then solves it by finding the shortest path from the starting point to the ending point.
 
-## Details:
-Write a program to generate and display a maze using the algorithm described in the textbook.  The program may either be a command-line program that generates a character-based maze, or it may be a GUI program that draws the maze in a window. <br>
+# Features
+* Generates a random maze using depth-first search algorithm.
+* Solves the maze by finding a path from the start to the end using recursive backtracking algorithm.
+* The maze is displayed graphically on a JPanel.
+* The maze can be customized by changing various parameters, such as the number of rows and columns, the size of each cell, and the minimum number of pixels between the maze and the edge of the panel.
 
-The user should be able to specify the number of rows and columns in the maze, up to 20x20.  Note that the number of rows and columns can differ, so a 10x15 is valid. <br>
+# Prerequisities
+* Java Development Kit (JDK) version 8 or higher.
+* An integrated development environment (IDE) that supports Java, such as Eclipse or IntelliJ IDEA.
 
-You must use the DisjSet class from the textbook to implement the textbook's algorithm.  The DisjSet class must be used as given in the textbook without making modifications to it.  Do not copy the code into your maze class, keep it as a separate class.
+# Installing
+Clone : ```git clone https://github.com/0sheetalkumari0/Maze_Solver.git```
+
+or download the repository (zip file) to your local machine.
+
+# Running
+* Compile the Maze.java file using the Java compiler.  
+```javac Maze.java```
+* Run the Maze class using the Java Virtual Machine.  
+```java Maze```
+
+
